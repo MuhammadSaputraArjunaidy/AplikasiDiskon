@@ -272,17 +272,7 @@ public class DiskonFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-         try {
-        double hargaAsli = Double.parseDouble(hargaAsliTextField.getText());
-        int diskon = comboBoxDiskon.getSelectedIndex() * 10; // jika diskon dalam 10%, 20%, dst.
-        double penghematan = hargaAsli * diskonTerakhir / 100;
-        double hargaAkhir = hargaAsli - penghematan;
-
-        hargaAkhirLabel.setText("Harga Akhir: " + hargaAkhir);
-        penghematanLabel.setText("Penghematan: " + penghematan);
-    } catch (NumberFormatException e) {
-        JOptionPane.showMessageDialog(this, "Masukkan angka valid untuk harga asli.");
-    }        // TODO add your handling code here:
+            hitungHargaAkhir();    // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void sliderDiskonStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_sliderDiskonStateChanged
