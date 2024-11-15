@@ -10,27 +10,22 @@ aplikasi ini digunakan untuk menghitung harga akhir setelah diskon diterapkan. P
 Berikut adalah deskripsi fitur-fitur utama aplikasi ini:
 
 1. Kolom Input:
-
 - Harga Asli: Kolom teks untuk memasukkan harga asli barang sebelum diskon.
 - Presentase Diskon: Sebuah slider yang memungkinkan pengguna untuk memilih persentase diskon yang akan diterapkan pada harga asli.
 
 2. Kolom Hasil:
-
 - Harga Akhir: Kolom untuk menampilkan harga barang setelah diskon diterapkan.
 - Penghematan: Kolom untuk menampilkan jumlah uang yang dihemat berkat diskon yang diterapkan.
 - Kupon Diskon: Kolom untuk memasukkan kode kupon diskon (jika ada), yang dapat memberikan diskon tambahan.
 
 3. Tombol :
-
 - Hitung: Tombol yang digunakan untuk menghitung hasil dari penghitungan diskon, yang akan memperbarui kolom "Harga Akhir" dan "Penghematan" berdasarkan input yang dimasukkan.
 
 4. Output:
-
-Di bawah tombol, ada sebuah area kosong untuk menampilkan riwayat perhitungan diskon yang telah dilakukan.
-# Source Code
-
-```
- import javax.swing.JOptionPane;
+- Di bawah tombol, ada sebuah area kosong untuk menampilkan riwayat perhitungan diskon yang telah dilakukan. 
+ # Source Code
+ ```java
+  import javax.swing.JOptionPane;
 import java.awt.event.ItemEvent;
 
 
@@ -419,9 +414,12 @@ public class DiskonFrame extends javax.swing.JFrame {
 }
 
 
-        ```
+```
 
-## Authors
+
+
+
+# Authors
 
 - MuhammadSaputraArjunaidy
 - 2210010300
@@ -429,4 +427,4 @@ public class DiskonFrame extends javax.swing.JFrame {
 - [@MuhammadSaputraArjunaidy](https://www.github.com/MuhammadSaputraArjunaidy)
 
 
-## Screenshot
+#  Screenshot
