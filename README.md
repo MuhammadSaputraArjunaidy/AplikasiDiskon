@@ -428,3 +428,5 @@ public class DiskonFrame extends javax.swing.JFrame {
 
 
 #  Screenshot
+
+![image](https://github.com/user-attachments/assets/779a0beb-0e0b-4431-9bc8-f6131c7fcb64)
